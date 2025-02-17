@@ -187,7 +187,4 @@ AGENTIC_AI/
 *   **Expand Knowledge Base:** Add more comprehensive and up-to-date documentation to the `knowledge_docs/` folder to improve the chatbot's knowledge and response quality.
 *   **Improve Response Generation:**  Experiment with different language models, prompting strategies, and response formatting to generate more helpful, human-like, and accurate responses.
 *   **Implement User Authentication and Session Management:** For more complex applications, consider adding user authentication and more robust session management.
-*   **Add Testing:** Implement unit tests and integration tests to ensure the reliability and functionality of the chatbot.
-*   **Deployment:**  Containerize the application using Docker for easier deployment and scalability. Explore cloud deployment options (e.g., AWS, Google Cloud, Azure).
-*   **UI/UX Enhancements:**  Improve the user interface with features like a clearer mode indicator, better styling, and more interactive elements.
 *   **Error Handling and Logging:** Enhance error handling and logging throughout the application for better debugging and monitoring.
