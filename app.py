@@ -1,4 +1,3 @@
-# app.py (with cProfile profiling)
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
@@ -52,10 +51,10 @@ if __name__ == '__main__':
     pr.disable()
     end_time = time.time() # Simple timer end
     startup_time = end_time - start_time
-    print(f"\nFlask App Startup Time: {startup_time:.2f} seconds\n") # Print startup time
+    # print(f"\nFlask App Startup Time: {startup_time:.2f} seconds\n") # Print startup time
 
     s = io.StringIO()
     ps = pstats.Stats(pr, stream=s).sort_stats('cumulative')
-    ps.print_stats(20) # Print top 20 slow functions
+    # ps.print_stats(20) # Print top 20 slow functions
 
-    print("\ncProfile Stats (Top 20 by cumulative time):\n", s.getvalue())
+    # print("\ncProfile Stats (Top 20 by cumulative time):\n", s.getvalue())
