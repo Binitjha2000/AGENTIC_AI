@@ -1,0 +1,1 @@
+print("Account unlocked successfully. Temporary password: Temp@1234 , Kindly dont be inactive for more than 30 days or your account will be locked again.")

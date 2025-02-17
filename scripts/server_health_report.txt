@@ -1,0 +1,13 @@
+========= Server Health Report =========
+CPU Usage: 3.6%
+Memory Usage: 9.19 GB / 15.83 GB
+Disk Usage: 88.27 GB / 310.50 GB
+System Uptime: 3 Days, 5 Hours, 17 Minutes
+Network Status: Online
+
+Top CPU-Consuming Processes:
+ - System Idle Process (PID: 0, CPU: 0.0%)
+ - System (PID: 4, CPU: 0.0%)
+ -  (PID: 140, CPU: 0.0%)
+ - Registry (PID: 184, CPU: 0.0%)
+ - ApplicationFrameHost.exe (PID: 360, CPU: 0.0%)
