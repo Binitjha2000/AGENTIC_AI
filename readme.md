@@ -1,9 +1,7 @@
 # AGENTIC AI Chatbot
 
----
 ##  `Details`
 
-```text
 Project Title: AGENTIC AI  AI Chatbot
 
 Overview:
