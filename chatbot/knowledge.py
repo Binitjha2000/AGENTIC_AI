@@ -65,20 +65,3 @@ class KnowledgeBase:
             self.logger.error(f"Search error: {str(e)}")
             return []
         
-
-        #     def search(self, query: str, k=5) -> List[Dict]:
-        # """Return structured search results with metadata"""
-        # try:
-        #     docs = self.db.similarity_search(query, k=k)
-        #     results = [{
-        #         "source": os.path.basename(d.metadata['source']),
-        #         "content": d.page_content[:700].strip(),  # Keep content snippet for logging
-        #         "page": d.metadata.get('page', 'N/A'),
-        #         "score": float(d.metadata.get('score', 0))
-        #     } for d in docs]
-        #     self.logger.info(f"Search results for query '{query}':\n{results}") # Added logging here
-        #     return results
-
-        # except Exception as e:
-        #     self.logger.error(f"Search error: {str(e)}")
-        #     return []

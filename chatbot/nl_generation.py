@@ -69,7 +69,7 @@ class ResponseGenerator:
 
     def _clean_content(self, text: str) -> str:
         """Remove code comments and special characters - NO TRUNCATION NOW"""
-        return re.sub(r'\/\/.*?\n', '', text).strip() # Removed [:800]
+        return re.sub(r'\/\/.*?\n', '', text).strip()
 
     def _filter_results(self, results: List[Dict], query: str) -> List[Dict]:
         """Filter RAG results by query relevance"""
@@ -93,7 +93,7 @@ class ResponseGenerator:
         # Remove redundant newlines
         text = re.sub(r'\n\s*\n', '\n\n', text)
     
-        return text.strip()[:2000]  # Strict length limit
+        return text.strip()[:2000]
 
     def humanize(self, technical_text: str) -> str:
         chunks = self._chunk_text(technical_text)
