@@ -22,12 +22,16 @@ Quick Start:
 4. Run the application: `python app.py`
 5. Access the chatbot in your browser: http://localhost:5000
 
+##  `Contributing to AGENTIC AI Chatbot`
+
+I welcome contributions to the AGENTIC AI Chatbot project!  As an open-source initiative, community involvement is highly valued and essential to making this chatbot even more helpful and effective.
+
+There are many ways you can contribute, whether you are a developer, IT professional, documentation expert, or simply a user with valuable feedback.
+
 Contact:
 [Binit Jha]
 [binitjha2000@gmail.com]
 
-
-This project implements an AI-powered AGENTIC AI  chatbot designed to assist users with common IT issues. It leverages natural language processing, intent recognition, and a knowledge base to provide helpful and informative responses.
 
 ## Folder Structure
 
