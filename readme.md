@@ -1,10 +1,39 @@
-# IT Support AI Chatbot
+# AGENTIC AI Chatbot
 
-This project implements an AI-powered IT support chatbot designed to assist users with common IT issues. It leverages natural language processing, intent recognition, and a knowledge base to provide helpful and informative responses.
+---
+##  `Details`
+
+```text
+Project Title: AGENTIC AI  AI Chatbot
+
+Overview:
+This project is an AI-powered AGENTIC AI  chatbot designed to help users with common IT issues. It uses natural language processing, intent recognition, and a knowledge base to provide assistance.
+
+Key Technologies:
+- Python
+- Flask (Web Framework)
+- Sentence Transformers (Sentence Embeddings)
+- Hugging Face Transformers (FLAN-T5 Language Model)
+- Langchain (Knowledge Base Integration)
+- FAISS (Vector Database)
+
+Quick Start:
+1. Ensure you have Python installed.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Place your documentation in the 'knowledge_docs/' folder.
+4. Run the application: `python app.py`
+5. Access the chatbot in your browser: http://localhost:5000
+
+Contact:
+[Binit Jha]
+[binitjha2000@gmail.com]
+
+
+This project implements an AI-powered AGENTIC AI  chatbot designed to assist users with common IT issues. It leverages natural language processing, intent recognition, and a knowledge base to provide helpful and informative responses.
 
 ## Folder Structure
 
-it_support_chatbot/
+AGENTIC_AI/
 ├── chatbot/
 │   ├── caching.py
 │   ├── intent_handler.py
@@ -24,7 +53,7 @@ it_support_chatbot/
 
 
 *   **`chatbot/`**: Contains core chatbot logic including caching, intent handling, knowledge base interaction, and natural language generation.
-*   **`knowledge_docs/`**:  Directory to store IT support documentation files (PDFs, TXT files, DOCX files) that the chatbot uses for its knowledge base.
+*   **`knowledge_docs/`**:  Directory to store AGENTIC AI  documentation files (PDFs, TXT files, DOCX files) that the chatbot uses for its knowledge base.
 *   **`templates/`**:  Holds the `index.html` file, which is the HTML template for the chatbot's user interface.
 *   **`data/`**: Contains data files like `intents.json`, which defines the chatbot's intents and associated patterns.
 *   **`app.py`**: The main Flask application that runs the chatbot.
@@ -38,7 +67,7 @@ it_support_chatbot/
 
     ```bash
     git clone [repository_url]
-    cd it_support_chatbot
+    cd AGENTIC_AI
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -55,7 +84,7 @@ it_support_chatbot/
     pip install -r requirements.txt
     ```
 
-4.  **Place your IT documentation in `knowledge_docs/` folder.**  The chatbot will use these files to build its knowledge base. Supported file types are `.pdf`, `.txt`, and `.docx`.
+4.  **Place your IT documentation in `knowledge_docs/` folder.**  The chatbot will use these files to build its knowledge base. Supported file types are `.pdf`, `.txt`, and `.docx`.By default I have placed some of the research paper releated to AIML . 
 
 5.  **Configure Intents in `data/intents.json`.**  Modify this file to define the intents your chatbot should recognize, their patterns, associated scripts, and conversational flows. Refer to the structure of the existing `intents.json` for the format.
 
@@ -64,7 +93,7 @@ it_support_chatbot/
 1.  **Navigate to the project directory:**
 
     ```bash
-    cd it_support_chatbot
+    cd AGENTIC_AI
     ```
 
 2.  **Run the Flask application:**
@@ -146,7 +175,7 @@ it_support_chatbot/
 
 ### `knowledge_docs/`
 
-*   This folder is expected to be populated with your IT support documentation.
+*   This folder is expected to be populated with your AGENTIC AI  documentation.
 *   The chatbot will automatically index these documents to answer user queries related to the knowledge base.
 
 ## Requirements
@@ -164,32 +193,3 @@ it_support_chatbot/
 *   **Deployment:**  Containerize the application using Docker for easier deployment and scalability. Explore cloud deployment options (e.g., AWS, Google Cloud, Azure).
 *   **UI/UX Enhancements:**  Improve the user interface with features like a clearer mode indicator, better styling, and more interactive elements.
 *   **Error Handling and Logging:** Enhance error handling and logging throughout the application for better debugging and monitoring.
-
-
----
-## 2. `details.txt` File Content:
-
-```text
-Project Title: IT Support AI Chatbot
-
-Overview:
-This project is an AI-powered IT support chatbot designed to help users with common IT issues. It uses natural language processing, intent recognition, and a knowledge base to provide assistance.
-
-Key Technologies:
-- Python
-- Flask (Web Framework)
-- Sentence Transformers (Sentence Embeddings)
-- Hugging Face Transformers (FLAN-T5 Language Model)
-- Langchain (Knowledge Base Integration)
-- FAISS (Vector Database)
-
-Quick Start:
-1. Ensure you have Python installed.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Place your documentation in the 'knowledge_docs/' folder.
-4. Run the application: `python app.py`
-5. Access the chatbot in your browser: http://localhost:5000
-
-Contact:
-[Binit Jha]
-[binitjha2000@gmail.com]
